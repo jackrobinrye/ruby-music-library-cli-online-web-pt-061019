@@ -94,7 +94,7 @@ class MusicLibraryController
       song_number = gets.to_i - 1
       if song_number >= 0
         # puts "Playing #{list_songs[song_number]}"
-        binding.pry
+        # binding.pry
       end
     end
 
