@@ -21,8 +21,16 @@ class MusicLibraryController
       puts "To quit, type 'exit'."
       puts "What would you like to do?"
       command = gets
+      case command 
+      when 'list songs'
+        list_songs
+      when 'list artist'
+        list_artists
+      when 'list genres'
+        list_genres 
+      end 
     end
-    command
+    
   end
 
   def list_songs
